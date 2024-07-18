@@ -1,0 +1,24 @@
+/* animación */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+        color: $color-claro;
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 0.5;
+        color: rgb(144, 138, 132);
+    }
+
+    100% {
+        opacity: 1;
+        color: rgb(104, 100, 95);
+    }
+}
+
+.slide-in {
+    animation: slideIn 1.5s ease-in-out;
+    font-size: 40px;
+}

@@ -1,0 +1,54 @@
+/*Banner*/
+
+@mixin anclas {
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    @include anclas;
+    font-size: 130px;
+    margin: 20px 0px;
+}
+
+h2 {
+    @include anclas;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+p {
+    @include anclas;
+    padding-left: 0px;  
+    padding-right: 0px; 
+}
+
+.contenedorDiseño {
+    margin: 20px;
+    border: 4px solid $color-oscuro;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.imgDiseno {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
